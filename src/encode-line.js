@@ -12,7 +12,23 @@ const { NotImplementedError } = require('../extensions/index.js');
  */
 function encodeLine(/* str */) {
   throw new NotImplementedError('Not implemented');
-  // remove line with error and write your code here
+  // let arr = str.split('');
+  // let obj = {};
+  // let text = '';
+  // for (let i = 0; i < arr.length; i += 1) {
+  //   if (obj.hasOwnProperty(arr[i])) {
+  //     obj[arr[i]] += 1;
+  //   }else{
+  //     obj[arr[i]] = 1;
+  //   }
+  // }
+  // for (key in obj) {
+  //   if(obj[key] === 1) {
+  //     obj[key] = '';
+  //   }
+  //   text += obj[key] + key;
+  // }
+  // return text;
 }
 
 module.exports = {
