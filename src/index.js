@@ -46,7 +46,6 @@
       let arr = textrepeat.split('');
       arr.splice(index,separator.length).join('')
       return arr.join('')
-      //console.log(arr);
     }
 
   }
